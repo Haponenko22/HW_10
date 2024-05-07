@@ -1,0 +1,42 @@
+    1  git config --get user.name
+    2  git config --get user.email
+    3  git clone https://github.com/Haponenko22/HW_10.git
+    4  ls -l
+    5  cd HW_10
+    6  touch text_ignore.txt
+    7  ls -l
+    8  vim .gitignore
+    9  ls -l
+   10  git status
+   11  git add.
+   12  git commit
+   13  git commit -m "changed gitignore"
+   14  git status
+   15  touch main_test.txt
+   16  ls -l
+   17  git add.
+   18  git commit -m "added main_test.txt"
+   19  git status
+   20  git add .
+   21  git status
+   22  git commit -m "added main-test.txt"
+   23  git checkout -b develop
+   24  git branch
+   25  touch develpo_test.txt
+   26  git status
+   27  git add .
+   28  git commit -m "added develop_test.txt"
+   29  git status
+   30  git mv develpo_test.txt develop_test.txt
+   31  git add .
+   32  git commit -m "rename file"
+   33  nano develop_test.txt 
+   34  git status
+   35  cat develop_test.txt
+   36  git add .
+   37  git commit -m "changed develop_test.txt"
+   38  git log
+   39  git checkout main
+   40  git merge develop
+   41  git log
+   42  history>command_list.csv
